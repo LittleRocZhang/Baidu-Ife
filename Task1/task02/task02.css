@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	font-family: "微软雅黑";
+	font-size: 100%;
+}
+/*总体布局开始*/
+#container{
+	width: 100%;
+}
+#header{
+	height: 70px;
+	width: 100%;
+	background-color: #333;
+}
+#content{
+	padding: 0;
+	margin: 0 auto;
+	width: 90%;
+}
+#footer{
+	height: 70px;
+	clear: both;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+/*总体布局结束*/
+/*导航栏开始*/
+#header img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+.H_nav{
+	font-size: 13px;
+	font-weight: bold;
+}
+#header ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+#header li{
+	float: left;
+	margin-right: 15px;
+	line-height: 70px;
+	text-align: center;
+}
+#header a:link,#header a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+#header a:hover,#header a:active{
+	text-decoration: none;
+	color: #ff9;
+}
+/*导航栏结束*/
+/*内容主体开始*/
+.passage{
+	margin-top: 15px;
+	padding: 20px;
+	border: solid 1px #999;
+	border-right: ridge;
+	border-bottom: ridge;
+	background-color: #fff;
+}
+#content .passage p{
+	text-indent: 2.2em;
+}
+.pic_list li{
+	width: 120px;
+	height: 120px;
+	border: 1px #ccc solid;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+	list-style: none;
+}
+.pic_list img{
+	width: 100px;
+	height: 100px;
+}
+h4{
+	margin: 0;
+	font-weight: normal;
+}
+table{
+	border-collapse: collapse;
+	border: 0;
+	width: 100%;
+}
+td,th{
+	border: 0;
+	padding: 5px;
+	border: 1px #ccc solid;
+}
+th{
+	background-color: #333;
+	color: #fff;
+	text-align: left;
+}
+tr:last-child{
+	background-color: #ccc;
+	font-weight: bold;
+}
+/*内容主体结束*/
+/*侧边栏开始*/
+aside{
+	box-sizing: border-box;
+	margin: 15px auto;
+	width: 90%;
+	padding: 20px;
+	border: solid 1px #999;
+	border-right: ridge;
+	border-bottom: ridge;
+	background-color: #fff;
+	font-size: 13px;
+}
+aside h2{
+	border-left: 3px #ccc solid;
+	margin: 0;
+	padding-left: 10px;
+}
+aside .input{
+	margin-bottom: 20px;
+}
+aside div{margin-bottom: 10px;}
+aside .input_tit{
+	display: inline-block;
+	width: 30%;
+	padding-right: 10px;
+	text-align: right;
+}
+aside .tips{
+	display: block;
+	margin-left: 30%;
+	padding-left: 10px;
+	color: #aaa;
+}
+textarea{
+	width: 400px;
+	height: 50px;
+	vertical-align: top;
+}
+button{
+	display: block;
+	background-color: rgb(28,99,221);
+	line-height: 30px;
+	border-radius: 5px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	width: 100%;
+}
+/*侧栏结束*/
+/*页脚开始*/
+footer{
+	line-height: 70px;
+	font-size: 13px;
+}
+/*页脚结束*/
