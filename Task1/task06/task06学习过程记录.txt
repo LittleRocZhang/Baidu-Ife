@@ -1,0 +1,8 @@
+通过HTML及CSS模拟报纸排版：
+1.把段落设置为小型大写字母字体：font-variant:small-caps;
+2.属性控制文本的大小写：text-transform
+	none	默认。定义带有小写字母和大写字母的标		准的文本。
+	capitalize	文本中的每个单词以大写字母开头。
+	uppercase	定义仅有大写字母。
+	lowercase	定义无大写字母，仅有小写字母。
+3.opality属性
