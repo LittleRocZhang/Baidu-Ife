@@ -1,0 +1,26 @@
+实现常见的技术产品官网的页面架构及样式布局;
+1.使用content添加前后图标，设置图标大小的方法：
+	直接在content中加图标链接无法控制图标的大小:
+	icon:before{
+		content: url(images/xxx.png);
+		display:block;   
+		width:80px;   
+		height:80px;   
+		overflow:hidden; 
+}
+这时可以使用background载入图片，然后使用background-size调整尺寸：
+	icon:before{
+		content: "";
+		display: block;
+		width: 80px;
+		height: 80px;
+		background-image: url(images/xxx.png);
+		background-size: 14px 14px;
+		overflow: hidden;
+}
+
+2.absolute和fixed的层序关系
+3.加入font-size: 0;的意义？
+4.带样式的下拉列表：
+5.transition属性详解
+6.display的flex布局与table布局

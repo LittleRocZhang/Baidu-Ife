@@ -1,0 +1,21 @@
+ charset="utf-8"
+通过HTML及CSS模拟报纸排版：
+1.把段落设置为小型大写字母字体：font-variant:small-caps;
+2.属性控制文本的大小写：text-transform
+	none	默认。定义带有小写字母和大写字母的标准的文本。
+	capitalize	文本中的每个单词以大写字母开头。
+	uppercase	定义仅有大写字母。
+	lowercase	定义无大写字母，仅有小写字母。
+3.opality属性
+4.position:absolute;的深入理解。
+5.浮动元素下方块段布局，可以浮动元素的父元素加入伪元素
+	**:after{ content: "";display: block;
+clear: both;}
+6.段落第一个字的样式选择器 p:first-letter
+6.css实现三角形：
+	width: 0;
+	height 0;
+	border-left: 5px solid transparent；
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #******;
+//利用border边框，使两侧边框为透明

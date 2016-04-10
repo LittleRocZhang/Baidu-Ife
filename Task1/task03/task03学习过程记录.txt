@@ -1,0 +1,17 @@
+三栏式布局：
+利用浮动实现三栏式布局，left模块左浮动，right模块右移动，middle模块不设置宽度，因为浮动元素不占据普通文档流，所以只需要设置margin-left和margin-right就可以实现middle介入于两者之间，当然前提是html结构中middle位于left和right模块的后面，这个需要特别注意。
+
+遇到的问题：
+1.img标签在css里使用padding属性出现图片缩小来出现内边距的情况。
+2.块级元素里文本为什么会溢出，而有时又不会溢出？
+	word-wrap: break-word;（可让文本自动换行）
+3.背景块区域高度随子元素最高者高度而定的问题：
+	①父级背景元素中添加属性
+		overflow： auto；
+	②使用content属性
+		.content:after{
+		  content: "";
+		  display: block;
+		  claer: both;
+}
+
