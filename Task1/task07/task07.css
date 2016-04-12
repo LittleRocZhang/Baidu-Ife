@@ -306,3 +306,363 @@ nav li:hover,nav li:active{
 	letter-spacing: 20px;
 }
 /*show-end*/
+/*poster-bg*/
+.poster{
+	width: 100%;
+	height: 531px;
+	background-color: #fff;
+	font-size: 0;
+	position: relative;
+}
+.poster .pos-pic{
+	width: 67%;
+	height: 531px;
+	background: url(images/theworld1.jpg);
+	background-size: 100% auto;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding-top: 120px;
+}
+.poster .pos-pic h2{
+	font-family: "微软雅黑",sans-serif;
+	font-size: 32px;
+}
+.poster .pos-pic h3{
+	font-family: "黑体",Dotum,sans-serif;
+	font-size: 156px;
+	font-weight: lighter;
+	margin-top: -30px;
+}
+.poster .pos-pic p{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	margin: 20px 0;
+}
+.poster .pos-pic time{
+	font-family: "黑体";
+	font-size: 20px;
+}
+.poster .pos-pic:after{
+	content: "";
+	border-right: solid 30px #fff;
+	border-top:  solid 20px transparent;
+	border-bottom:  solid 20px transparent;
+	position: absolute;
+	left: 67%;
+	top: 50%;
+	margin-left: -30px;
+}
+.poster .pos-tips{
+	display: inline-block;
+	width: 33%;
+	height: 531px;
+	padding-top: 130px;
+	float: right;
+	text-align: center;
+}
+.poster .pos-tips h3{
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color: #3d3d3d;
+}
+.poster .pos-tips span{ color: #eb3f38}
+.poster .pos-tips p{
+	width: 280px;
+	margin: 30px auto;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #868888;
+	line-height: 30px;
+	text-align: left;
+}
+.poster .pos-tips a:link,.poster .pos-tips a:visited{
+	display: inline-block;
+	width: 120px;
+	height: 36px;
+	background-color: #fff;
+	border: solid 1px #eb3f38;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #eb3f38;
+	text-decoration: none;
+	text-align: center;
+	line-height: 36px;
+	transition: all 0.3s;
+}
+.poster .pos-tips a:hover,.poster .pos-tips a:active{
+	background-color: #eb3f38;
+	color: #fff;
+}
+.poster .pos-tips li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 30px 8px;
+	list-style: none;
+	border: solid 1px #767777;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.poster .pos-tips li:first-child{ background-color: #767777;}
+.poster .pos-tips li:hover{ background-color: #767777;}
+/*poster-end*/
+/*more-bg*/
+.more{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	font-size: 0;
+	position: relative;
+}
+.more .left{
+	float:left;
+	display: inline-block;
+	width: 33%;
+	height:500px;
+	padding-top: 170px;
+	background-color: #eb3f38;
+}
+.more h2{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	font-weight: lighter;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.more span{
+	display: inline-block;
+	width: 30px;
+	height: 10px;
+	text-align: center;
+	border-top: 2px solid #fff;
+	transition: width 0.4s ease-in-out;
+}
+.more .left:hover span{
+	width: 200px;
+}
+.more a:link,.move a:visited{
+	display: inline-block;
+	width: 176px;
+	height: 42px;
+	margin-top: 20px;
+	background-color: #eb3f38;
+	border: solid 1px #fff;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 42px;
+	transition: all 0.3s;
+}
+.more .left a:hover,.more .left a:active{
+	background-color: #fff;
+	color: #eb3f38;
+}
+.more .middle{
+	float: left;
+	display: inline-block;
+	width: 34%;
+	height: 500px;
+	padding-top: 170px;
+	background-color: #fff;
+}
+.more .middle span{ border-top: 2px solid #767777;}
+.more .middle:hover span{ width: 200px;}
+.more .middle h2{ color: #3d3d3d;}
+.more .middle a:link,.more .middle a:visited{
+	background-color: #fff;
+	color: #eb3f38;
+	border: solid 1px #eb3f38;
+} 
+.more .middle a:hover,.more .middle aactive{
+	background-color: #eb3f38;
+	color: #fff;
+}
+.more .right{
+	float:left;
+	display: inline-block;
+	width: 33%;
+	height: 500px;
+	background: url(images/boat.jpg) no-repeat;
+	background-size: 100% 500px;
+}
+.more .right:before{
+	content: "";
+	border-left: 30px solid #fff;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	left: 67%;
+	top: 50%;
+}
+/*more-end*/
+/*join-bg*/
+.join{
+	width: 100%;
+	height: 640px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 0;
+}
+.join h2{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color: #4d4d4d;
+	margin-top: 140px;
+}
+.join span{
+	display: inline-block;
+	width: 30px;
+	height: 10px;
+	border-top: solid 2px #eb3f38;
+	transition: width 0.4s ease-in-out;
+}
+.join span:hover{ width: 300px;}
+.join h4{
+	margin: 10px auto 100px;
+	width: 550px;
+	font-family: "黑体","宋体";
+	font-weight: normal;
+	font-size: 12px;
+	color: #767777;
+	line-height: 18px;
+}
+.join .rule{
+	display: inline-block;
+	margin-right: 40px;
+	width: 300px;
+	height: 320px;
+	text-align: left;
+}
+.join .rule .rule-m{ 
+	margin-bottom: 30px;
+}
+.join .rule h3{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #5d5d5d;
+	margin-bottom: 26px;
+}
+.join .rule p{
+	font-family: "黑体","宋体";
+	font-size: 12px;
+	color: #767777;
+	line-height: 22px;
+}
+.join .rule .rule-m:after{
+	content: "v more";
+	font-family: "黑体";
+	font-size: 11px;
+	color: #767777;
+	position: absolute;
+	margin-left: 255px;
+	cursor: pointer;
+}
+.join .joinin{
+	display: inline-block;
+	width: 600px;
+	height: 320px;
+	vertical-align: top;
+}
+.join .joinin input{
+	width: 280px;
+	height: 40px;
+	background-color: #eee;
+	border: 0;
+	margin: 0 6px 12px 6px;
+	text-indent: 18px;
+	font-family: "微软雅黑";
+}
+.join .joinin textarea{
+	width: 572px;
+	height: 152px;
+	margin-bottom: 12px;
+	padding-top: 8px;
+	background-color: #eee;
+	border: 0;
+	text-indent: 18px;
+	text-indent: 18px;
+	font-family: "微软雅黑";
+	text-transform: none;
+}
+.join .joinin button{
+	width: 572px;
+	height: 40px;
+	background-color: #eee;
+	border: 0;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #323232;
+	cursor: pointer;
+}
+/*join-end*/
+/*contact-bg*/
+.contact{
+	width: 100%;
+	height: 340px;
+	background-color: #33363f;
+	text-align: center;
+	padding: 90px;
+}
+.contact h2{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+}
+.contact p{
+	font-family: "黑体";
+	font-size: 12px;
+	color: #fff;
+	line-height: 18px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.contact .input input{
+	width: 400px;
+	height: 40px;
+	border: 0;
+	padding: 10px;
+}
+.contact .input button{
+	width: 100px;
+	height: 40px;
+	border: 0;
+	background-color: #545454;
+	color: #fff;
+	cursor: pointer;
+}
+.contact .input button:active{ background-color: #323232;}
+.contact img{
+	width: 30px;
+	height: 30px;
+	margin:  25px 10px;
+	cursor: pointer;
+}
+/*contact-end*/
+/*footer-bg*/
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #30303a;
+	clear: both;
+}
+footer .copy{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #fff;
+	line-height: 60px;
+	margin-left: 50px;
+}
+footer .top a{
+	font-family: "微软雅黑";
+	font-size: 10px;
+	color: #fff;
+	line-height: 60px;
+	text-decoration: none;
+	float: right;
+	margin-right: 20px;
+}
+/*footer-end*/
