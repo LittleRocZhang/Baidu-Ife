@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IFE JavaScript Text 01</title>
+</head>
+<body>
+	<label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+	<button id="button">确认填写</button>
+
+	<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+	<script type="text/javascript">
+	(function(){
+		/*在注释下方写代码
+		给按钮button绑定一个事件
+		在事件处理函数中
+		获取aqi-input输入的值，并显示在aqi-display中
+		*/
+		//命名替换函数
+		var change =  function(){
+			var input = document.getElementById("aqi-input");
+			var display = document.getElementById("aqi-display");
+			//将input输入的值取整
+			var num = parseInt(input.value);
+			/*写定条件
+			其中!NaN(num)判定是否是数字类型
+			*/
+			if((!isNaN(num))&&(num>=0)&&(num<=1000)){
+				//将display的值替换为num的值
+				display.innerHTML = num;
+			}
+			else{
+				alert(input.value + "不是有效的AQI值，请输入0-1000的整数!");
+			}
+		}
+		var button = document.getElementById("button");
+		//为按钮绑定事件函数
+		button.onclick = function(){
+			change();
+		}
+	})();
+	</script>
+</body>
+</html>
