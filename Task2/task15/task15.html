@@ -38,13 +38,12 @@ function getData() {
   /*
   coding here
   */
-var content = document.getElementById('source').document.getElementsByTagName('li');
+var data = [];
+var content = document.getElementById('source').getElementsByTagName('li');
 for(var i = 0, len = content.length; i < len; i++){
   var city = content[i].innerHTML.split('空气质量：')[0];
-  var aqi = content[i].document.getElementsByTagName('b').innerHTML;
-  var data = [];
-  data[i].push(city);
-  data[i].push(aqi);
+  var aqi = content[i].getElementsByTagName('b')[0].innerHTML;
+      data.push([city,aqi]);
 }
   /*
   data = [
@@ -76,12 +75,12 @@ function sortAqiData(data) {
  */
 function render(data) {
   var num = ["一","二","三","四","五","六","七"];
-  var list = document.getElementById('resort');
+  var newList = document.getElementById('resort');
+  var str = "";
   for(var i = 0; i < data.length; i++){
-  var li = createElement('li');
-  list.appendChild(li);
-  li.appendChild('第' + num[i] + '名：' + data[i][0] + '空气质量：<b>' + data[i][1] + '</b>');
+   str += "<li>第" + num[i] + "名：" + data[i][0] + "空气质量：<b>" + data[i][1] + "</b></li>";
   }
+  newList.innerHTML = str; 
 }
 
 function btnHandle() {
@@ -95,7 +94,7 @@ function btnHandle() {
 function init() {
 
   // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
-document.getElementById('sort-bon').onclick = btnHandle;
+document.getElementById('sort-btn').onclick = btnHandle;
 }
 
 init();
