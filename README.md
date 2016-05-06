@@ -14,6 +14,6 @@ DEMO ：<br>
   task11：<a href="" target="_blank"></a><br>
   task12：<a href="" target="_blank"></a><br>
   task13：<a href="http://littleroczhang.github.io/Baidu-Ife/Task2/task13/task13_2.html" target="_blank">简单js</a><br>
-  task14：<a href="" target="_blank"></a><br>
+  task14：<a href="http://littleroczhang.github.io/Baidu-Ife/Task2/task14/task14.html" target="_blank"></a>，任务描述：<a href="http://ife.baidu.com/task/detail?taskId=14">task-14</a><br>
   task15：<a href="" target="_blank"></a><br>
   task16：<a href="" target="_blank"></a><br>
