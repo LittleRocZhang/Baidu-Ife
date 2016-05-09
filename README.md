@@ -15,5 +15,5 @@ DEMO ：<br>
   task12：<a href="" target="_blank"></a><br>
   task13：<a href="http://littleroczhang.github.io/Baidu-Ife/Task2/task13/task13_2.html" target="_blank">简单js</a><br>
   task14：<a href="http://littleroczhang.github.io/Baidu-Ife/Task2/task14/task14.html" target="_blank">动态创建、修改DOM内容</a>，任务描述：<a href="http://ife.baidu.com/task/detail?taskId=14">task-14</a><br>
-  task15：<a href="" target="_blank"></a><br>
+  task15：<a href="http://littleroczhang.github.io/Baidu-Ife/Task2/task15/task15.html" target="_blank">task15</a>，任务描述：<a href="http://ife.baidu.com/task/detail?taskId=15">task-15<br>
   task16：<a href="" target="_blank"></a><br>
